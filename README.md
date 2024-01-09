@@ -1,4 +1,7 @@
-# Projet Principal - Realtime Sales Analytics
+# Realtime Sales Analytics
+
+![Local Image](architecture.png)
+
 
 ## Introduction
 
