@@ -1,7 +1,6 @@
 # Realtime Sales Analytics
 
-![Architecture](architecture.png)
-
+![Architecture](assets/architecture.png)
 
 ## Introduction
 

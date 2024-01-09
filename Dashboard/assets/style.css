@@ -5,69 +5,6 @@ body {
     margin: 0;
 }
 
-.main-container {
-    padding: 10px;
-}
-
-.nav-wrapper {
-    padding: 13px 20px;
-    background: linear-gradient(to right, #0074cc, #005691); /* Blue gradient */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-fixed {
-    margin-top: 90px;
-}
-
-.graph-container {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 30px;
-}
-
-.brand-logo {
-    color: #ffffff;
-    font-size: 24px;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-.nav-links {
-    display: flex;
-    gap: 15px;
-    list-style-type: none;
-    font-size: 12px;
-    margin-right: 30px;
-}
-
-.nav-links li {
-    margin: 0;
-    padding-right: 10px; /* Adjust spacing between items */
-    border-right: 1px solid #ffffff; /* Separator color */
-}
-
-.nav-links li:last-child {
-    border-right: none; /* Remove separator for the last item */
-}
-
-.nav-links a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px;
-}
-
-.nav-links a:hover {
-    background: rgba(0, 0, 0, 0.55);
-}
-
 h1 {
     font-size: 2em;
     margin: .67em 0;
@@ -111,6 +48,75 @@ h1 {
 
 .w-col-3 {
     width: 25%;
+}
+
+
+.main-container {
+    padding: 10px;
+}
+
+.nav-wrapper {
+    padding: 13px 20px;
+    background: linear-gradient(to right, #0074cc, #005691); /* Blue gradient */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-fixed {
+    margin-top: 90px;
+}
+
+.graph-container, .table-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.brand-logo {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.nav-links li {
+    margin: 0;
+    padding-right: 10px; /* Adjust spacing between items */
+    border-right: 1px solid #ffffff; /* Separator color */
+}
+
+.nav-links li:last-child {
+    border-right: none; /* Remove separator for the last item */
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.table, .graph-item {
+    width: 33%;
+    padding: 22px 30px;
 }
 
 @media screen and (max-width: 767px) {

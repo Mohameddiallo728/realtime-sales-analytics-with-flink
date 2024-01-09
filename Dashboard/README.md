@@ -54,6 +54,12 @@ Exécutez le script Python pour lancer l'application Dash avec la commande :
 python main.py
 ```
 
+## Captures d'ecran sortie
+![En chiffre](../assets/Screenshot1.png)
+![En tableau](../assets/Screenshot2.png)
+![En mois](../assets/Screenshot3.png)
+
+
 ## Contributions
 
 Les contributions sont les bienvenues ! Si vous avez des idées d'améliorations, veuillez ouvrir une issue ou soumettre
