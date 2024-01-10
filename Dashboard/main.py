@@ -40,30 +40,33 @@ def update_graphs(n):
 
 @app.callback(
     Output('table-sales-per-category', 'data'),
-    [Input('pagination-sales-per-category', 'page_current'),
-     Input('pagination-sales-per-category', 'page_size')]
+    [Input('interval-component', 'n_intervals'),
+     Input('table-sales-per-category', 'page_current'),
+     Input('table-sales-per-category', 'page_size')],
 )
-def update_sales_per_category_table(page, size):
+def update_sales_per_category_table(n, page, size):
     return update_tables_callback(fetch_sales_per_category, page, size, columns_category)
 
 
 # Callback pour la table sales_per_day
 @app.callback(
     Output('table-sales-per-day', 'data'),
-    [Input('pagination-sales-per-day', 'page_current'),
-     Input('pagination-sales-per-day', 'page_size')]
+    [Input('interval-component', 'n_intervals'),
+     Input('table-sales-per-day', 'page_current'),
+     Input('table-sales-per-day', 'page_size')],
 )
-def update_sales_per_day_table(page, size):
+def update_sales_per_day_table(n, page, size):
     return update_tables_callback(fetch_sales_per_day, page, size, columns_day)
 
 
 # Callback pour la table sales_per_month
 @app.callback(
     Output('table-sales-per-month', 'data'),
-    [Input('pagination-sales-per-month', 'page_current'),
-     Input('pagination-sales-per-month', 'page_size')]
+    [Input('interval-component', 'n_intervals'),
+     Input('table-sales-per-month', 'page_current'),
+     Input('table-sales-per-month', 'page_size')],
 )
-def update_sales_per_month_table(page, size):
+def update_sales_per_month_table(n, page, size):
     return update_tables_callback(fetch_sales_per_month, page, size, columns_month)
 
 
