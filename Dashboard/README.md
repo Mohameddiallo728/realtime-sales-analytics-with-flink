@@ -55,9 +55,11 @@ python main.py
 ```
 
 ## Captures d'ecran sortie
-![En chiffre](../assets/Screenshot1.png)
-![En tableau](../assets/Screenshot2.png)
-![En mois](../assets/Screenshot3.png)
+![En chiffre](../assets/01.png)
+![En tableau](../assets/02.png)
+![Par categories](../assets/03.png)
+![Par jour](../assets/04.png)
+![Par mois](../assets/05.png)
 
 
 ## Contributions
